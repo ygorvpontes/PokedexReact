@@ -1,29 +1,16 @@
-import React from 'react'
-import { useEffect, useState } from 'react'
 
-
+import Pokemons from './components/pokemons'
+import Cardright from './components/Cardright'
 
 function App() {
-  const [allpokemon, setAllpokemon] = useState([])
-  const [searchTerms, setSearchTerm] = useState('')
   
-  useEffect(()=>{
-    const getpokemon = async ()=>{
-      
-    }
-  }
+return(
+  <div className='max -w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-[1fr_350px] h-screen'>
+  <Pokemons/>
+  <Cardright/>
+</div>
+)
     
-  )
-
-
-
-
-  return (
   
-      <>
-      </>
-    
-  )
 }
-
 export default App
