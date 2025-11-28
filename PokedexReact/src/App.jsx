@@ -1,5 +1,5 @@
 
-import Pokemons from './components/pokemons'
+import Pokemons from './components/Pokemons'
 import Cardright from './components/Cardright'
 
 function App() {
